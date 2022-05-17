@@ -5,7 +5,7 @@ For example:
 
 ['simple', 'is', 'better', 'than', 'complex'] ==> 7
 
-*/
+*/gi
 //  steps
 
 //1- Loop through the given words
