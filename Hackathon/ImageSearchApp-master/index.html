@@ -26,6 +26,29 @@
             <!-- <div class="image"></div> -->
         </div>
         <script src="./index.js"></script>
+        <script type="module">
+            // Import the functions you need from the SDKs you need
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-app.js";
+            import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-analytics.js";
+            // TODO: Add SDKs for Firebase products that you want to use
+            // https://firebase.google.com/docs/web/setup#available-libraries
+          
+            // Your web app's Firebase configuration
+            // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+            const firebaseConfig = {
+              apiKey: "AIzaSyCxvm8hWi3ILRPKko3QW3Or_KX5FtNBd0U",
+              authDomain: "image-research-app.firebaseapp.com",
+              projectId: "image-research-app",
+              storageBucket: "image-research-app.appspot.com",
+              messagingSenderId: "506581174718",
+              appId: "1:506581174718:web:0c931a5a559449fd7b11ef",
+              measurementId: "G-S58S8FF20R"
+            };
+          
+            // Initialize Firebase
+            const app = initializeApp(firebaseConfig);
+            const analytics = getAnalytics(app);
+          </script>
       
     </body>
 
