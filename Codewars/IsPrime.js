@@ -18,17 +18,25 @@ is_prime(-1) // false //
 
 */
 
-
-function isPrime(num) {
-  //TODO
-if((num==2 || num==3 ||num==5) || (num %2 !=0 && num %3 !=0 && num %5 !=0) ){
-return "true";
-
-} 
-else{
-	return "false";
-}
-}
+function isPrime(num){
+	let result = true;
+	if (num < 2){
+	  return false;
+	} else if (num === 2) {
+	  return true;
+	}
+	if (num % 2 === 1){
+	  for (let i=2; i<=Math.ceil(Math.sqrt(num)); i++){
+		if(num % i === 0){
+		  result = false;
+		  break;
+		}
+	  }
+	} else {
+	  result = false;
+	}
+	return result;
+  }
 
 //  Test
 
