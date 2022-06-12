@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+#header .logo img{
+    float: left;
+    width: 300px;
+}
+#header #nav-bar{
+    text-align: right;
+    float: right;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+#header #nav-bar a{
+    padding-right: 20px;
+}
+#main{
+    text-align: center;
+    padding-top: 100px;
+
+}
+#main #form{
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
