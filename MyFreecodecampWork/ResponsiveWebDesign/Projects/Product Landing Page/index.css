@@ -27,3 +27,32 @@
   padding-top: 40px;
   padding-bottom: 30px;
 }
+.email{
+height: 30px;
+font-weight: 500;
+font-size: 15px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.submit{
+  background-color: rgb(228, 228, 87);
+    height: 35px;
+    width: 100px;
+    float: none;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#video{
+    display: block;
+    justify-content: center;
+    margin: auto;
+
+}
+.column{
+ /* width: 300px; */
+ float: left;
+ justify-content: center;
+ padding-left: 50px;
+ padding-top: 50px;
+ width: 350px;
+}
