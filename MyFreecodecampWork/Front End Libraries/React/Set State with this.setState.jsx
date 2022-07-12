@@ -16,12 +16,12 @@ class MyComponent extends React.Component {
       this.handleClick = this.handleClick.bind(this);
     }
     handleClick() {
-      // Change code below this line
+      // Change the code below this line
       this.setState ({
         name :'React Rocks!'
       })
   
-      // Change code above this line
+      // Change the code above this line
     }
     render() {
       return (
@@ -32,3 +32,4 @@ class MyComponent extends React.Component {
       );
     }
   };
+  
