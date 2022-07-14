@@ -18,7 +18,7 @@ class MyComponent extends React.Component {
     handleClick() {
       // Change the code below this line
       this.setState ({
-        name :'React Rocks!'
+        name :'React Rocks the World!'
       })
   
       // Change the code above this line
