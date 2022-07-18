@@ -14,7 +14,7 @@ class MyApp extends React.Component {
       return (
          <div>
            {/* Change code below this line */}
-           <Navbar name={this.state.name}/>
+           <Navbar name={this.state.name} />
            {/* Change code above this line */}
          </div>
       );
