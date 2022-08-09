@@ -9,16 +9,14 @@ const [age, setAge] = useState("23");
 }
 const handleClick =()=>{
 setName("Tekum");
-setAge("24")
-
-
+setAge("24");
 
 return(
 <div className="Home">
 
 <h1> Homepage</h1>
 <p> {name} is 24 years old </p>
-<button onClick={handleChange}> Click me abeg</button>
+<button onClick={handleClick}> Click me abeg</button>
 
 
 
