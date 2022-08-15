@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Quicksand', sans-serif;;
+}
+
+#main-doc {
+    display: flex;
+    /* flex-direction: column; */
+}
+
+/* .section-wrapper {
+    padding-left: 50px;
+} */
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 35px;
+}
+
+li {
+    padding: 5px 0 5px 40px;
+}
+
+header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.main-section {
+    padding: 10px;
+}
+
+.What_you_should_already_know {
+    padding: 10px;
+}
+
+.Javascript_and_Java {
+    padding: 10px;
+}
+
+.Hello_World {
+    padding: 10px;
+}
+
+.Variables {
+    padding: 10px;
+}
+
+#navbar a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+#navbar {
+    visibility: visible;
+    /* position: fixed; */
+    /* background-color: yellow; */
+}
+
+.navi {
+    /* background-color: yellow; */
+    width: 100%;
+    border-right: 1.5px solid #000;
+}
+
+.nav-link {
+    padding: 20px;
+    border: 1px solid #000;
+    border-left: transparent;
+    border-right: transparent;
+}
+
+#intro {
+    padding: 20px 0;
+    text-align: center;
+    /* margin: 10px 0; */
+}
+
+@media (min-width: 769px) {
+    .navi {
+        width: 60%;
+    }
+    
+}
